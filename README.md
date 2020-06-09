@@ -1,5 +1,7 @@
 # scrollable-text-experience
 
+[![Build Status](https://travis-ci.com/fangrobinson/scrollable-text-experience.svg?token=iKn6HR3YfVw1GvWsWLyy&branch=master)](https://travis-ci.com/fangrobinson/scrollable-text-experience)
+
 ## Project setup
 ```
 npm install

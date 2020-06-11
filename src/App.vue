@@ -19,15 +19,14 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
+      <v-spacer></v-spacer>
+
+      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
     </v-app-bar>
+
+    <v-navigation-drawer app v-model="drawer" class="blue-grey lighten-3" right="true">
+      <p>test</p>
+    </v-navigation-drawer>
 
     <v-content>
       <HelloWorld/>
@@ -46,7 +45,7 @@ export default {
   },
 
   data: () => ({
-    //
+    drawer: false,
   }),
 };
 </script>

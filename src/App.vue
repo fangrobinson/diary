@@ -29,7 +29,7 @@
     </v-navigation-drawer>
 
     <v-content>
-      <v-row align="center"><MyMenu></MyMenu></v-row>
+      <MyMenu></MyMenu>
       <HelloWorld/>
     </v-content>
   </v-app>

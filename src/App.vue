@@ -3,7 +3,6 @@
     <v-app-bar
       app
       color="blue-grey lighten-3"
-      dense="true"
       dark
     >
       <div class="d-flex align-center">
@@ -18,18 +17,10 @@
       </div>
 
       <v-spacer></v-spacer>
-
-      <v-spacer></v-spacer>
-
-      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+      <MyMenu v-on:trollear-jp="trollearJuampi"></MyMenu>
     </v-app-bar>
 
-    <v-navigation-drawer app v-model="drawer" class="blue-grey lighten-3" right="true" temporary>
-      <p>test</p>
-    </v-navigation-drawer>
-
     <v-content>
-      <MyMenu></MyMenu>
       <HelloWorld/>
     </v-content>
   </v-app>
@@ -47,8 +38,20 @@ export default {
     MyMenu,
   },
 
+
   data: () => ({
-    drawer: false,
+    //
   }),
+
+
+  methods: {
+    trollearJuampi: function(){
+      console.log("Event Captured");
+      return { headerText: 'Te la creiste we ecsdi' };
+    }
+  },
+
 };
+
+
 </script>

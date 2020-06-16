@@ -26,7 +26,7 @@
             >
                 <v-list-item-title>
                     {{ item.title }}
-                    <button v-on:click="emitToParent">Dark Mode</button>
+                    <button @click="$store.commit('switchDark')">Dark Mode</button>
                 </v-list-item-title>
             </v-list-item>
         </v-list>
@@ -49,11 +49,5 @@
             offsetX: false,
             offsetY: true,
         }),
-
-        methods: {
-            emitToParent: function(){
-                this.$emit('trollear-jp')
-            }
-        },
     }
 </script>

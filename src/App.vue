@@ -2,8 +2,10 @@
   <v-app>
     <v-app-bar
       app
-      color="blue-grey lighten-3"
-      dark
+      dense
+      flat
+      :color="colorIfDark"
+      :dark="$store.state.darkEnabled"
     >
       <div class="d-flex align-center">
         <v-img
@@ -17,18 +19,19 @@
       </div>
 
       <v-spacer></v-spacer>
-      <MyMenu @trollear-jp="trollearJuampi"></MyMenu>
+      <MyMenu/>
     </v-app-bar>
 
     <v-content>
-      <HelloWorld :header-text="headerText"/>
+      <HelloWorld/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
-import MyMenu from "./components/MyMenu";
+import HelloWorld from './components/HelloWorld'
+import MyMenu from './components/MyMenu'
+import entry1 from './assets/entries/001-ningbo.json'
 
 export default {
   name: 'App',
@@ -40,19 +43,14 @@ export default {
 
 
   data: () => ({
-    headerText: 'Welcome to Vuetify',
   }),
 
-
-  methods: {
-    trollearJuampi() {
-      console.log("Event Captured")
-      console.log(this.$store.state.count)
-      this.$store.commit('increment')
-      this.headerText = 'Te la creiste we ecsdi'
+  computed: {
+    colorIfDark() {
+      console.log(entry1.body)
+      return (this.$store.state.darkEnabled) ? 'blue-grey lighten-3' : 'grey'
     }
   },
-
 };
 
 

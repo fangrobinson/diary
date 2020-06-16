@@ -5,11 +5,11 @@ Vue.use(Vuex)
 
 export const store = new Vuex.Store({
     state: {
-        count: 0
+        darkEnabled: false
     },
     mutations: {
-        increment (state) {
-            state.count++
+        switchDark (state) {
+            state.darkEnabled = !state.darkEnabled
         }
     }
 })

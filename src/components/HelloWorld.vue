@@ -12,7 +12,7 @@
 
       <v-col class="mb-4">
         <h1 class="display-2 font-weight-bold mb-3">
-          {{ headerText }}
+          {{ darkStatusMsg }}
         </h1>
 
         <p class="subheading font-weight-regular">
@@ -95,13 +95,6 @@
   export default {
     name: 'HelloWorld',
 
-    props: {
-      headerText: {
-        type: String,
-        default: 'Welcome to Vuetify',
-      },
-    },
-
     data: () => ({
       ecosystem: [
         {
@@ -154,5 +147,12 @@
         },
       ],
     }),
+
+    computed: {
+      darkStatusMsg() {
+        return (this.$store.state.darkEnabled) ? 'Dark Mode: Enabled' : 'Dark Mode: Disabled'
+      }
+    }
+
   }
 </script>

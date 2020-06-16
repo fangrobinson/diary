@@ -17,11 +17,11 @@
       </div>
 
       <v-spacer></v-spacer>
-      <MyMenu v-on:trollear-jp="trollearJuampi"></MyMenu>
+      <MyMenu @trollear-jp="trollearJuampi"></MyMenu>
     </v-app-bar>
 
     <v-content>
-      <HelloWorld/>
+      <HelloWorld :header-text="headerText"/>
     </v-content>
   </v-app>
 </template>
@@ -40,14 +40,14 @@ export default {
 
 
   data: () => ({
-    //
+    headerText: 'Welcome to Vuetify',
   }),
 
 
   methods: {
-    trollearJuampi: function(){
-      console.log("Event Captured");
-      return { headerText: 'Te la creiste we ecsdi' };
+    trollearJuampi() {
+      console.log("Event Captured")
+      this.headerText = 'Te la creiste we ecsdi'
     }
   },
 

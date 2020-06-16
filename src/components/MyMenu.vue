@@ -52,13 +52,7 @@
 
         methods: {
             emitToParent: function(){
-                console.log("Te la creíste we ecsdi");
-                console.log("Todavía me falta");
-                console.log("Intenté pasar un emit a mi parent");
-                console.log("Y actualizar los props del hijo");
-                console.log("Probé bindear el prop con el return en data");
-                console.log("Lo deje roto por ahora jejee despues sigo");
-                this.$emit('trollear-jp');
+                this.$emit('trollear-jp')
             }
         },
     }

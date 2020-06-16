@@ -48,6 +48,7 @@ export default {
     trollearJuampi() {
       console.log("Event Captured")
       console.log(this.$store.state.count)
+      this.$store.commit('increment')
       this.headerText = 'Te la creiste we ecsdi'
     }
   },

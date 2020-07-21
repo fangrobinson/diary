@@ -15,6 +15,13 @@
                 <div v-for="(elem, i) in entryData.body" :key="i">
                     <p v-if="elem.type==='text'">{{ elem.content }}</p>
                     <v-img v-if="elem.type==='img'" :src="require('../assets/entries/img/' + elem.path)"></v-img>
+                    <ul v-if="elem.type==='list'">
+                        <li
+                            v-for="(item, i) in elem.items"
+                            :key="i"
+                        >{{ item }}</li>
+                        <p></p>
+                    </ul>
                 </div>
 
                 <h1>

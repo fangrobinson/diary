@@ -1,13 +1,21 @@
 {
 	"id": "001",
-	"title": "SACAR TITULO",
+	"title": "Punto de partida",
 	"date": "01/12/2017",
 	"place": "Aeropuerto de Newark",
 	"body": 
 	[
 		{
 			"type": "text", 
-			"content": "	Podría decirse que me arranqué de la cotidianeidad de mis días.\n	Durante el próximo mes mi humanidad buscará nuevos equilibrios\n	Algunos detalles persisten:"
+			"content": "Podría decirse que me arranqué de la cotidianeidad de mis días."
+		},
+		{
+			"type": "text",
+			"content": "Durante el próximo mes mi humanidad buscará nuevos equilibrios."
+		},
+		{
+			"type": "text",
+			"content": "Algunos detalles persisten:"
 		},
 		{
 			"type": "list",
@@ -15,7 +23,19 @@
 		},
 		{
 			"type": "text",
-			"content": "En un lugar o en otro, las necesidades básicas de las personas no cambian. Podría decirse que en una cultura u otra sí cambian las soluciones a esas necesidades.\n	Por supuesto que es parte de la manifestación de cada individuo la forma en que interseca costumbres que le son ajenas.\n	Mi objetivo personal para este viaje es nutrirme. Por eso, debería mantener un estado de apertura.\n	La pasividad que acostumbro, sin embargo, debería intercambiarse con la agresividad."
+			"content": "En un lugar o en otro, las necesidades básicas de las personas no cambian. Podría decirse que en una cultura u otra sí cambian las soluciones a esas necesidades."
+		},
+		{
+			"type": "text",
+			"content": "Por supuesto que es parte de la manifestación de cada individuo la forma en que interseca costumbres que le son ajenas."
+		},
+		{
+			"type": "text",
+			"content": "Mi objetivo personal para este viaje es nutrirme. Por eso, debería mantener un estado de apertura."
+		},
+		{
+			"type": "text",
+			"content": "La pasividad que acostumbro, sin embargo, debería intercambiarse con la agresividad."
 		}
 	]
 }

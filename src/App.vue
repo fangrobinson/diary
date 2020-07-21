@@ -23,22 +23,24 @@
     </v-app-bar>
 
     <v-content>
-      <HelloWorld/>
+      <BlogEntry/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+/*import HelloWorld from './components/HelloWorld'*/
 import MyMenu from './components/MyMenu'
 import entry1 from './assets/entries/001-ningbo.json'
+import BlogEntry from "./components/BlogEntry";
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    /*HelloWorld,*/
     MyMenu,
+    BlogEntry
   },
 
 

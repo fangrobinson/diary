@@ -5,13 +5,17 @@
             sm="10" offset-sm="1"
             md="8" offset-md="2"
             lg="8" offset-lg="2"
-            xl="4" offset-xl="4"
+            xl="8" offset-xl="2"
         >
             <v-card class="wrapper" flat>
-                <h1> {{ entryData.place }} </h1>
+                <h3 class="text-right"> {{ entryData.date }} - {{ entryData.place }} </h3>
 
+                <h1 v-if="entryData.title.length !== 0" class="text-center"> {{ entryData.title }} </h1>
 
-
+                <div v-for="(elem, i) in entryData.body" :key="i">
+                    <p v-if="elem.type==='text'">{{ elem.content }}</p>
+                    <v-img v-if="elem.type==='img'" :src="require('../assets/entries/img/' + elem.path)"></v-img>
+                </div>
 
                 <h1>
                     {{ darkStatusMsg }} {{ entryData.place }}

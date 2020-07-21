@@ -23,14 +23,13 @@
     </v-app-bar>
     <v-content>
       <v-container>
-        <BlogEntry v-for="filename in ['001-ningbo']" :key="filename" :filename="filename"/>
+        <BlogEntry v-for="filename in ['001-ningbo', '002git -ningbo']" :key="filename" :filename="filename"/>
       </v-container>
     </v-content>
   </v-app>
 </template>
 
 <script>
-/*import HelloWorld from './components/HelloWorld'*/
 import MyMenu from './components/MyMenu'
 import BlogEntry from "./components/BlogEntry";
 
@@ -38,7 +37,6 @@ export default {
   name: 'App',
 
   components: {
-    /*HelloWorld,*/
     MyMenu,
     BlogEntry
   },

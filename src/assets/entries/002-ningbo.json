@@ -15,11 +15,11 @@
 		},
 		{
 			"type": "text",
-			"content": "OTRO PARRAFO"
+			"content": "mi PARRAFO"
 		},
 		{
 			"type": "text",
-			"content": "OTRO OTRO PARRAFO"
+			"content": "OTRO no PARRAFO"
 		}
 	]
 }

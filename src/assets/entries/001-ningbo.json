@@ -1,25 +1,21 @@
 {
-	"id": "01",
+	"id": "001",
 	"title": "SACAR TITULO",
-	"date": "02/12/2017",
-	"place": "Puente de la Bahía 36kms de gris",
+	"date": "01/12/2017",
+	"place": "Aeropuerto de Newark",
 	"body": 
 	[
 		{
 			"type": "text", 
-			"content": "UN PARRAFO"
+			"content": "	Podría decirse que me arranqué de la cotidianeidad de mis días.\n	Durante el próximo mes mi humanidad buscará nuevos equilibrios\n	Algunos detalles persisten:"
 		},
 		{
-			"type": "img",
-			"path": "001/icon.png"
-		},
-		{
-			"type": "text",
-			"content": "OTRO PARRAFO"
+			"type": "list",
+			"items": ["el sueño", "el hambre", "el aburrimiento"]
 		},
 		{
 			"type": "text",
-			"content": "OTRO OTRO PARRAFO"
+			"content": "En un lugar o en otro, las necesidades básicas de las personas no cambian. Podría decirse que en una cultura u otra sí cambian las soluciones a esas necesidades.\n	Por supuesto que es parte de la manifestación de cada individuo la forma en que interseca costumbres que le son ajenas.\n	Mi objetivo personal para este viaje es nutrirme. Por eso, debería mantener un estado de apertura.\n	La pasividad que acostumbro, sin embargo, debería intercambiarse con la agresividad."
 		}
 	]
 }

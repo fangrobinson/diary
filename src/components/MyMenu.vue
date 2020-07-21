@@ -24,8 +24,7 @@
                     :key="index"
             >
                 <v-list-item-title :class="darkMode">
-                    {{ item.title }}
-                    <button @click="$store.commit('switchDark')">Dark Mode</button>
+                    <button @click="$store.commit('switchDark')">{{ darkModeButtonText }}</button>
                 </v-list-item-title>
             </v-list-item>
         </v-list>
@@ -51,6 +50,9 @@ export default {
     computed: {
         darkMode() {
             return (this.$store.state.darkEnabled) ? 'dark-mode' : 'light-mode'
+        },
+        darkModeButtonText() {
+            return (this.$store.state.darkEnabled) ? 'Light Mode' : 'Dark Mode'
         }
     }
 }

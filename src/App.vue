@@ -21,9 +21,10 @@
       <v-spacer></v-spacer>
       <MyMenu/>
     </v-app-bar>
-
     <v-content>
-      <BlogEntry/>
+      <v-container>
+        <BlogEntry v-for="filename in ['001-ningbo']" :key="filename" :filename="filename"/>
+      </v-container>
     </v-content>
   </v-app>
 </template>
@@ -31,7 +32,6 @@
 <script>
 /*import HelloWorld from './components/HelloWorld'*/
 import MyMenu from './components/MyMenu'
-import entry1 from './assets/entries/001-ningbo.json'
 import BlogEntry from "./components/BlogEntry";
 
 export default {
@@ -49,7 +49,6 @@ export default {
 
   computed: {
     colorIfDark() {
-      console.log(entry1.body)
       return (this.$store.state.darkEnabled) ? 'blue-grey lighten-3' : 'grey'
     }
   },

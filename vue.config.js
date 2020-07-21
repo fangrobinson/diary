@@ -1,5 +1,5 @@
 module.exports = {
-  "publicPath": "/scrollable-text-experience",
+  "publicPath": "/diary",
   "transpileDependencies": [
     "vuetify"
   ]

@@ -1,4 +1,4 @@
-# scrollable-text-experience
+# diary
 
 ## Project setup
 ```

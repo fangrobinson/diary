@@ -8,14 +8,16 @@
       :dark="$store.state.darkEnabled"
     >
       <div class="d-flex align-center">
-        <v-img
-          alt="Robinson Icon"
-          class="shrink mr-2"
-          contain
-          src="https://i.imgur.com/FJeOp8h.png"
-          transition="scale-transition"
-          width="40"
-        />
+        <v-avatar tile>
+          <v-img
+                  alt="Robinson Icon"
+                  class="shrink mr-2"
+                  contain
+                  src="https://i.imgur.com/FJeOp8h.png"
+                  transition="scale-transition"
+                  width="40"
+          />
+        </v-avatar>
       </div>
 
       <v-spacer></v-spacer>

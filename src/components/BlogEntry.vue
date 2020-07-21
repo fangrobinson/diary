@@ -7,29 +7,34 @@
             lg="8" offset-lg="2"
             xl="8" offset-xl="2"
         >
+            <v-divider class="my-5"></v-divider>
             <v-card class="wrapper" flat>
                 <h3 class="text-right"> {{ entryData.date }} - {{ entryData.place }} </h3>
 
                 <h1 v-if="entryData.title.length !== 0" class="text-center"> {{ entryData.title }} </h1>
 
-                <div v-for="(elem, i) in entryData.body" :key="i">
+                <div v-for="(elem, i) in entryData.body" :key="i" style="font-size:160%">
                     <p
-                            v-if="elem.type==='text'"
-                            style="text-align: justify-all; font-size:160%"
-
-                    >{{ elem.content }}</p>
-                    <v-img v-if="elem.type==='img'" :src="require('../assets/entries/img/' + elem.path)"></v-img>
-                    <ul v-if="elem.type==='list'">
+                        v-if="elem.type === 'text'"
+                        style="text-align: justify-all"
+                    >
+                        <span v-html="replaceNewLines(elem.content)"></span>
+                    </p>
+                    <v-img v-if="elem.type === 'img'" :src="require('../assets/entries/img/' + elem.path)"></v-img>
+                    <ul v-if="elem.type === 'list'" class="ml-5">
                         <li
                             v-for="(item, i) in elem.items"
                             :key="i"
                         >{{ item }}</li>
                         <p></p>
                     </ul>
+
+                    <v-divider class="my-5" v-if="elem.type === 'divider'" inset></v-divider>
+
                 </div>
 
                 <h1>
-                    {{ darkStatusMsg }} {{ entryData.place }}
+                    {{ darkStatusMsg }}
                 </h1>
             </v-card>
 
@@ -56,6 +61,13 @@ export default {
     computed: {
         darkStatusMsg() {
             return (this.$store.state.darkEnabled) ? 'Dark Mode: Enabled' : 'Dark Mode: Disabled'
+        }
+    },
+
+    methods: {
+        replaceNewLines(content) {
+            content = content.replace(/\n/g, "</p><p>");
+            return content;
         }
     },
 

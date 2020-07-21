@@ -7,35 +7,18 @@
 	[
 		{
 			"type": "text", 
-			"content": "Podría decirse que me arranqué de la cotidianeidad de mis días."
-		},
-		{
-			"type": "text",
-			"content": "Durante el próximo mes mi humanidad buscará nuevos equilibrios."
-		},
-		{
-			"type": "text",
-			"content": "Algunos detalles persisten:"
+			"content": "Podría decirse que me arranqué de la cotidianeidad de mis días.\nDurante el próximo mes mi humanidad buscará nuevos equilibrios.\nAlgunos detalles persisten:"
 		},
 		{
 			"type": "list",
 			"items": ["el sueño", "el hambre", "el aburrimiento"]
 		},
 		{
-			"type": "text",
-			"content": "En un lugar o en otro, las necesidades básicas de las personas no cambian. Podría decirse que en una cultura u otra sí cambian las soluciones a esas necesidades."
+			"type": "divider"
 		},
 		{
 			"type": "text",
-			"content": "Por supuesto que es parte de la manifestación de cada individuo la forma en que interseca costumbres que le son ajenas."
-		},
-		{
-			"type": "text",
-			"content": "Mi objetivo personal para este viaje es nutrirme. Por eso, debería mantener un estado de apertura."
-		},
-		{
-			"type": "text",
-			"content": "La pasividad que acostumbro, sin embargo, debería intercambiarse con la agresividad."
+			"content": "En un lugar o en otro, las necesidades básicas de las personas no cambian. Podría decirse que en una cultura u otra sí cambian las soluciones a esas necesidades.\nPor supuesto que es parte de la manifestación de cada individuo la forma en que interseca costumbres que le son ajenas.\nMi objetivo personal para este viaje es nutrirme. Por eso, debería mantener un estado de apertura.\nLa pasividad que acostumbro, sin embargo, debería intercambiarse con la agresividad."
 		}
 	]
 }

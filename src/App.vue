@@ -4,7 +4,7 @@
       app
       dense
       flat
-      :color="colorIfDark"
+      color="#3b3f42"
       :dark="$store.state.darkEnabled"
     >
       <div class="d-flex align-center">
@@ -23,7 +23,7 @@
       <v-spacer></v-spacer>
       <MyMenu/>
     </v-app-bar>
-    <v-content>
+    <v-content :class="backgroundColor">
       <v-container>
         <BlogEntry v-for="filename in ['001-ningbo', '002-ningbo']" :key="filename" :filename="filename"/>
       </v-container>
@@ -48,11 +48,18 @@ export default {
   }),
 
   computed: {
-    colorIfDark() {
-      return (this.$store.state.darkEnabled) ? 'blue-grey lighten-3' : 'grey'
+    backgroundColor() {
+      return (this.$store.state.darkEnabled) ? 'dark-background' : 'light-background'
     }
   },
 };
-
-
 </script>
+
+<style>
+  .dark-background {
+    background-color: #2b2b2b;
+  }
+  .light-background {
+    background-color: white;
+  }
+</style>

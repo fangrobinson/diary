@@ -7,20 +7,22 @@
             lg="8" offset-lg="2"
             xl="8" offset-xl="2"
         >
-            <v-divider class="my-5"></v-divider>
-            <v-card class="wrapper" flat>
+            <v-divider class="my-5" :dark="$store.state.darkEnabled"></v-divider>
+            <v-card :class="['wrapper pa-5', darkMode]" flat>
                 <h3 class="text-right"> {{ entryData.date }} - {{ entryData.place }} </h3>
 
                 <h1 v-if="entryData.title.length !== 0" class="text-center"> {{ entryData.title }} </h1>
 
-                <div v-for="(elem, i) in entryData.body" :key="i" style="font-size:160%">
+                <div v-for="(elem, i) in entryData.body" :key="i" :class="[$vuetify.breakpoint.mdAndUp ? 'lg-font' : 'rg-font']">
                     <p
                         v-if="elem.type === 'text'"
-                        style="text-align: justify-all"
+                        class="entry-paragraph"
                     >
                         <span v-html="replaceNewLines(elem.content)"></span>
                     </p>
+
                     <v-img v-if="elem.type === 'img'" :src="require('../assets/entries/img/' + elem.path)"></v-img>
+
                     <ul v-if="elem.type === 'list'" class="ml-5">
                         <li
                             v-for="(item, i) in elem.items"
@@ -29,13 +31,8 @@
                         <p></p>
                     </ul>
 
-                    <v-divider class="my-5" v-if="elem.type === 'divider'" inset></v-divider>
-
+                    <v-divider class="my-5 mx-8" v-if="elem.type === 'divider'" :dark="$store.state.darkEnabled"></v-divider>
                 </div>
-
-                <h1>
-                    {{ darkStatusMsg }}
-                </h1>
             </v-card>
 
         </v-col>
@@ -59,8 +56,8 @@ export default {
     }),
 
     computed: {
-        darkStatusMsg() {
-            return (this.$store.state.darkEnabled) ? 'Dark Mode: Enabled' : 'Dark Mode: Disabled'
+        darkMode() {
+            return (this.$store.state.darkEnabled) ? 'dark-mode' : 'light-mode'
         }
     },
 
@@ -85,5 +82,21 @@ export default {
 
     .wrapper {
         padding: 0 3vm 0 3vm;
+    }
+    .entry-paragraph {
+        text-align: justify-all;
+    }
+    .lg-font {
+        font-size: 145%;
+    }
+    .rg-font {
+        font-size: 100%;
+    }
+    .dark-mode {
+        background-color: #2b2b2b !important;
+        color: white !important;
+    }
+    .light-mode {
+        background-color: white !important;
     }
 </style>

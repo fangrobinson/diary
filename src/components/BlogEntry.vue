@@ -1,7 +1,22 @@
 <template>
-    <h1 class="display-2 font-weight-bold mb-3">
-        {{ darkStatusMsg }}
-    </h1>
+    <v-container>
+        <v-row
+            align="center"
+            justify="center"
+        >
+            <h1 class="display-2 font-weight-bold mb-3">
+                {{ darkStatusMsg }}
+            </h1>
+        </v-row>
+        <v-row
+            align="center"
+            justify="center"
+        >
+            <h1 class="display-2 font-weight-bold mb-3">
+                {{ darkStatusMsg }}
+            </h1>
+        </v-row>
+    </v-container>
 </template>
 
 <script>

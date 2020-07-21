@@ -13,7 +13,11 @@
                 <h1 v-if="entryData.title.length !== 0" class="text-center"> {{ entryData.title }} </h1>
 
                 <div v-for="(elem, i) in entryData.body" :key="i">
-                    <p v-if="elem.type==='text'">{{ elem.content }}</p>
+                    <p
+                            v-if="elem.type==='text'"
+                            style="text-align: justify-all; font-size:160%"
+
+                    >{{ elem.content }}</p>
                     <v-img v-if="elem.type==='img'" :src="require('../assets/entries/img/' + elem.path)"></v-img>
                     <ul v-if="elem.type==='list'">
                         <li

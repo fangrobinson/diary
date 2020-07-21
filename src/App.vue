@@ -23,7 +23,7 @@
     </v-app-bar>
     <v-content>
       <v-container>
-        <BlogEntry v-for="filename in ['001-ningbo', '002git -ningbo']" :key="filename" :filename="filename"/>
+        <BlogEntry v-for="filename in ['001-ningbo', '002-ningbo']" :key="filename" :filename="filename"/>
       </v-container>
     </v-content>
   </v-app>

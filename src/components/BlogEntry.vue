@@ -34,8 +34,8 @@
 
                     <v-divider class="my-5 mx-8" v-if="elem.type === 'divider'" :dark="$store.state.darkEnabled"></v-divider>
 
-                    <div v-if="elem.type === 'video'" align="center" :class="[videoSize]">
-                        <span v-html="elem.content"></span>
+                    <div v-if="elem.type === 'video'" align="center" :class="[videoContainerSize]">
+                        <span v-html="videoSize(elem)"></span>
                     </div>
 
                 </div>
@@ -71,8 +71,8 @@ export default {
             return (this.$store.state.darkEnabled) ? 'dark-mode' : 'light-mode'
         },
 
-        videoSize() {
-            return (this.$vuetify.breakpoint.mdAndUp) ? 'lg-video' : 'sm-video'
+        videoContainerSize() {
+            return (this.$vuetify.breakpoint.mdAndUp) ? 'lg-video-container' : 'sm-video-container'
         }
     },
 
@@ -80,6 +80,9 @@ export default {
         replaceNewLines(content) {
             content = content.replace(/\n/g, "</p><p>");
             return content;
+        },
+        videoSize(content) {
+            return (this.$vuetify.breakpoint.mdAndUp) ? content.lgVideo : content.smVideo;
         }
     },
 
@@ -114,16 +117,10 @@ export default {
     .light-mode {
         background-color: white !important;
     }
-    .lg-video {
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+    .lg-video-container {
     }
-    .sm-video {
-        top:0;
-        left: 0;
-        width: 40%;
-        height: 40%;
+
+    .sm-video-container {
     }
+
 </style>

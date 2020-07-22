@@ -37,7 +37,8 @@
 		},
 		{
 			"type": "video",
-			"content": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/d5iFq6i6O20\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+			"smVideo": "<iframe width=\"280\" height=\"157\" src=\"https://www.youtube-nocookie.com/embed/d5iFq6i6O20\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+			"lgVideo": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/d5iFq6i6O20\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 		},
 		{
 			"type": "divider"

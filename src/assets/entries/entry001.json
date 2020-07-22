@@ -1,12 +1,12 @@
 {
 	"id": "001",
-	"title": "Punto de partida",
+	"title": "",
 	"date": "01/12/2017",
 	"place": "Aeropuerto de Newark",
-	"body": 
+	"body":
 	[
 		{
-			"type": "text", 
+			"type": "text",
 			"content": "Podría decirse que me arranqué de la cotidianeidad de mis días.\nDurante el próximo mes mi humanidad buscará nuevos equilibrios.\nAlgunos detalles persisten:"
 		},
 		{

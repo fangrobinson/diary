@@ -12,6 +12,7 @@
                 <h3 class="text-right"> {{ entryData.date }} - {{ entryData.place }} </h3>
 
                 <h1 v-if="entryData.title.length !== 0" class="text-center"> {{ entryData.title }} </h1>
+                <p v-else></p>
 
                 <div v-for="(elem, i) in entryData.body" :key="i" :class="[$vuetify.breakpoint.mdAndUp ? 'lg-font' : 'rg-font']">
                     <p
@@ -84,7 +85,7 @@ export default {
         padding: 0 3vm 0 3vm;
     }
     .entry-paragraph {
-        text-align: justify-all;
+        text-align: justify;
     }
     .lg-font {
         font-size: 145%;

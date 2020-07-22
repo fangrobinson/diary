@@ -34,9 +34,11 @@
 
                     <v-divider class="my-5 mx-8" v-if="elem.type === 'divider'" :dark="$store.state.darkEnabled"></v-divider>
 
-                    <div v-if="elem.type === 'video'" align="center" :class="[videoContainerSize]">
+                    <div v-if="elem.type === 'video' " align="center" :class="[videoContainerSize]">
                         <span v-html="videoSize(elem)"></span>
                     </div>
+
+                    <h3 v-if="elem.type === 'place'" :class="['text-right', 'place-font']"> {{ entryData.date }} - {{ elem.name }} </h3>
 
                 </div>
             </v-card>
@@ -108,6 +110,9 @@ export default {
         font-size: 145%;
     }
     .rg-font {
+        font-size: 100%;
+    }
+    .place-font {
         font-size: 100%;
     }
     .dark-mode {

@@ -22,6 +22,8 @@
                         <span v-html="replaceNewLines(elem.content)"></span>
                     </p>
 
+                    <br v-if="elem.type === 'empty'"/>
+
                     <v-img v-if="elem.type === 'img'" :src="require('../assets/entries/img/' + elem.path)"></v-img>
 
                     <ul v-if="elem.type === 'list'" class="ml-5">
@@ -32,14 +34,23 @@
                         <p></p>
                     </ul>
 
+                    <ol v-if="elem.type === 'olist'" class="ml-5">
+                        <li
+                                v-for="(item, i) in elem.items"
+                                :key="i"
+                        >{{ item }}</li>
+                        <p></p>
+                    </ol>
+
                     <v-divider class="my-5 mx-8" v-if="elem.type === 'divider'" :dark="$store.state.darkEnabled"></v-divider>
 
                     <div v-if="elem.type === 'video' " align="center" :class="[videoContainerSize]">
                         <span v-html="videoSize(elem)"></span>
                     </div>
 
+                    <br v-if="elem.type === 'place'"/>
                     <h5 v-if="elem.type === 'place'" :class="['text-right']"> {{ new Date(entryData.date) | date('iiii MMM yyyy') }} {{elem.moment}} - {{ elem.name }} </h5>
-
+                    <br v-if="elem.type === 'place'"/>
                 </div>
             </v-card>
 

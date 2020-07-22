@@ -22,6 +22,12 @@
 			"type": "divider"
 		},
 		{
+			"type": "empty"
+		},
+		{
+			"type": "empty"
+		},
+		{
 			"type": "text",
 			"content": "Son las 17hs y ya es de noche."
 		}

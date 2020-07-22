@@ -2,7 +2,7 @@
 	"id": "004",
 	"title": "",
 	"date": "04/12/2017",
-	"place": "",
+	"place": "Rumbo a Hángzhōu",
 	"body": 
 	[
 		{
@@ -23,7 +23,7 @@
 		},
 		{
 			"type": "text", 
-			"content": "Llegó mi papá y buscamos el lago oeste de Hángzhōu (杭州 西湖). Mi papá se detuvo a preguntar por el lago (aunque sabe dónde está) y todos nos respondieron algo distinto."
+			"content": "Llegó mi papá y buscamos el lago oeste de Hángzhōu (杭州西湖). Mi papá se detuvo a preguntar por el lago (aunque sabe dónde está) y todos nos respondieron algo distinto."
 		},
 		{
 			"type": "text", 
@@ -63,7 +63,7 @@
 		},
 		{
 			"type": "text", 
-			"content": "Caminamos por un camino corriente. De nuestro lado un muro oriental altísimo (hermoso). En el medio, un arroyo contenido por rocas de irregular forma que llenaba el aire del gorgoteo del agua. Del otro lado la montaña, sus árboles, sus tallados que continuaban en el espacio y sus escaleras que se le aferraban y la escalaban. "
+			"content": "Caminamos por un camino corriente. Deg nuestro lado un muro oriental altísimo (hermoso). En el medio, un arroyo contenido por rocas de irregular forma que llenaba el aire del gorgoteo del agua. Del otro lado la montaña, sus árboles, sus tallados que continuaban en el espacio y sus escaleras que se le aferraban y la escalaban. "
 		},
 		{
 			"type": "text", 
@@ -71,6 +71,10 @@
 		},
 		{
 			"type": "divider"
+		},
+		{
+			"type": "place",
+			"name": "PlaceHolder"
 		}
 	]
 }

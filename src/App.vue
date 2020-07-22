@@ -25,7 +25,7 @@
     </v-app-bar>
     <v-content :class="backgroundColor">
       <v-container>
-        <BlogEntry v-for="filename in ['entry001', 'entry002', 'entry003']" :key="filename" :filename="filename"/>
+        <BlogEntry v-for="filename in ['entry001', 'entry002', 'entry003', 'entry004']" :key="filename" :filename="filename"/>
       </v-container>
     </v-content>
   </v-app>

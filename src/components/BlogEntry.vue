@@ -33,6 +33,11 @@
                     </ul>
 
                     <v-divider class="my-5 mx-8" v-if="elem.type === 'divider'" :dark="$store.state.darkEnabled"></v-divider>
+
+                    <div v-if="elem.type === 'video'" align="center">
+                        <span v-html="elem.content"></span>
+                    </div>
+
                 </div>
             </v-card>
 
@@ -42,7 +47,12 @@
 </template>
 
 <script>
+
+
 export default {
+    components: {
+    },
+
     props: {
         filename: {
             type: String,

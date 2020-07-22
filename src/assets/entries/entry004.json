@@ -1,7 +1,7 @@
 {
 	"id": "004",
 	"title": "",
-	"date": "04/12/2017",
+	"date": "12/04/2017",
 	"place": "Rumbo a Hángzhōu",
 	"body": 
 	[
@@ -74,7 +74,8 @@
 		},
 		{
 			"type": "place",
-			"name": "PlaceHolder"
+			"moment": "por la tarde",
+			"name": "Língyǐn Sì"
 		}
 	]
 }

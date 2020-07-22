@@ -9,7 +9,7 @@
         >
             <v-divider class="my-5" :dark="$store.state.darkEnabled"></v-divider>
             <v-card :class="['wrapper pa-5', darkMode]" flat>
-                <h3 class="text-right"> {{ entryData.date }} - {{ entryData.place }} </h3>
+                <h3 class="text-right"> {{ new Date(entryData.date) | date('iiii MMM yyyy') }} - {{ entryData.place }} </h3>
 
                 <h1 v-if="entryData.title.length !== 0" class="text-center"> {{ entryData.title }} </h1>
                 <p v-else></p>
@@ -38,7 +38,7 @@
                         <span v-html="videoSize(elem)"></span>
                     </div>
 
-                    <h3 v-if="elem.type === 'place'" :class="['text-right', 'place-font']"> {{ entryData.date }} - {{ elem.name }} </h3>
+                    <h5 v-if="elem.type === 'place'" :class="['text-right']"> {{ new Date(entryData.date) | date('iiii MMM yyyy') }} {{elem.moment}} - {{ elem.name }} </h5>
 
                 </div>
             </v-card>
@@ -49,9 +49,13 @@
 </template>
 
 <script>
-
+import { dateFilter } from "vue-date-fns";
+import { es } from 'date-fns/locale';
 
 export default {
+    filters: {
+        date: dateFilter
+    },
     components: {
     },
 
@@ -85,6 +89,9 @@ export default {
         },
         videoSize(content) {
             return (this.$vuetify.breakpoint.mdAndUp) ? content.lgVideo : content.smVideo;
+        },
+        formatDate(aDate) {
+            return this.$date(new Date(aDate), 'iiii MMMM yy', { locale: es } );
         }
     },
 

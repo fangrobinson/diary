@@ -33,7 +33,7 @@
 
 <script>
 import MyMenu from './components/MyMenu'
-import BlogEntry from "./components/BlogEntry";
+import BlogEntry from "./components/BlogEntry"
 
 export default {
   name: 'App',

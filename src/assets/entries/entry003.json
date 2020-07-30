@@ -27,7 +27,7 @@
 		},
 		{
 			"type": "text",
-			"content": "Ahí arriba vi cierta expresión del trabajo, del movimiento. Aunque era un domingo, subimos. Ahí arriba preparamos un pequeño altar en una mesa de piedra. Se abrió una puerta y realizamos un ritual. A la par se preparaba cemento. Prendimos fuego “dinero”. Y mi abuelo se quedó en su nueva casa.\nLa puerta se selló con el cemento. Comimos la fruta. El resto lo recogimos y emprendimos la vuelta. Pero antes de terminar de bajar saltamos un arroyito y, entre el bambú, visitamos los abuelos de mi abuelo. Sólo quedaron las tablas de las tumbas. El resto fue destruido durante la revolución cultural."
+			"content": "Ahí arriba vi cierta expresión del trabajo, del movimiento. Aunque era un domingo, subimos. Ahí arriba preparamos un pequeño altar en una mesa de piedra. Se abrió una puerta y realizamos un ritual. A la par se preparaba cemento. Prendimos fuego “dinero”. Y mi abuelo se quedó en su nueva casa.\nLa puerta se selló con el cemento. Comimos la fruta. El resto lo recogimos y emprendimos la vuelta."
 		},
 		{
 			"type": "carousel",
@@ -37,12 +37,26 @@
 		},
 		{
 			"type": "text",
-			"content": "Ahí encerrados, mediante una app me dijeron un par de cosas mal traducidas al español.\n“Ahora vamos al 1000 ritmo”. Fue gracioso. Sentí que eran mi familia. Son mi familia. Acaso entendí el significado de la palabra.\nTener que viajar a la otra punta del mapa, subir un monte y hacer cosas raras…\nMe llevaron a dos museos. La historia de Cíchéng ( 慈城) y Níngbō (宁波) es muy antigua. Se remonta milenios atrás. Ni siquiera me pude figurar un milenio. Mi papá vio en 30 años demasiados cambios en Níngbō. Los cambios fueron hechos en 10 años. Y para mí esta nueva realidad se iba construyendo segundo a segundo a medida que la descubría."
+			"content": " Pero antes de terminar de bajar saltamos un arroyito y, entre el bambú, visitamos los abuelos de mi abuelo. Sólo quedaron las tablas de las tumbas. El resto fue destruido durante la revolución cultural."
+		},
+		{
+			"type": "text",
+			"content": "Ahí encerrados, mediante una app me dijeron un par de cosas mal traducidas al español.\n“Ahora vamos al 1000 ritmo”. Fue gracioso. Sentí que eran mi familia. Son mi familia. Acaso entendí el significado de la palabra.\nTener que viajar a la otra punta del mapa, subir un monte y hacer cosas raras…"
 		},
 		{
 			"type": "carousel",
 			"items": [
 				{"src": "00309.png", "title": "Bajando del monte"},{"src": "00310.png", "title": "Lo que quedó de las tumbas destruidas durante la revolución cultural"}
+			]
+		},
+		{
+			"type": "text",
+			"content": "Me llevaron a dos museos. La historia de Cíchéng ( 慈城) y Níngbō (宁波) es muy antigua. Se remonta milenios atrás. Ni siquiera me pude figurar un milenio. Mi papá vio en 30 años demasiados cambios en Níngbō. Los cambios fueron hechos en 10 años. Y para mí esta nueva realidad se iba construyendo segundo a segundo a medida que la descubría."
+		},
+		{
+			"type": "carousel",
+			"items": [
+				{"src": "00311.png", "title": "Exposición en el museo de antiguos funcionarios de Níngbō"}
 			]
 		},
 		{
@@ -75,6 +89,12 @@
 			"type": "video",
 			"smVideo": "<iframe width=\"280\" height=\"157\" src=\"https://www.youtube-nocookie.com/embed/d5iFq6i6O20\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 			"lgVideo": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/d5iFq6i6O20\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+		},
+		{
+			"type": "carousel",
+			"items": [
+				{"src": "00312.png", "title": "Imágenes budistas del templo"}
+			]
 		},
 		{
 			"type": "divider"

@@ -23,12 +23,8 @@
 		{
 			"type": "carousel",
 			"items": [
-				{"src": "001.png"},{"src": "001.png"},{"src": "001.png"}
+				{"src": "001.png"}
 			]
-		},
-		{
-			"type": "img",
-			"src": "001.png"
 		}
 	]
 }

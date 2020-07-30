@@ -86,15 +86,15 @@
 			"type": "divider"
 		},
 		{
+			"type": "carousel",
+			"items": [
+				{"src": "00312b.png", "title": "Mis tíos y mi papá llegando al templo"}, {"src": "00312.png", "title": "Imágenes budistas del templo"}
+			]
+		},
+		{
 			"type": "video",
 			"smVideo": "<iframe width=\"280\" height=\"157\" src=\"https://www.youtube-nocookie.com/embed/d5iFq6i6O20\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
 			"lgVideo": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/d5iFq6i6O20\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-		},
-		{
-			"type": "carousel",
-			"items": [
-				{"src": "00312.png", "title": "Imágenes budistas del templo"}
-			]
 		},
 		{
 			"type": "divider"

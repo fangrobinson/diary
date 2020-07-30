@@ -9,7 +9,7 @@
         >
             <v-divider class="my-5" :dark="$store.state.darkEnabled"></v-divider>
             <v-card :class="['wrapper pa-5', darkMode]" flat>
-                <h3 class="text-right"> {{ new Date(entryData.date) | date('iiii MMM yyyy') }} - {{ entryData.place }} </h3>
+                <h3 class="text-right"> {{ new Date(entryData.date) | date }} - {{ entryData.place }} </h3>
 
                 <h1 v-if="entryData.title.length !== 0" class="text-center"> {{ entryData.title }} </h1>
                 <p v-else></p>
@@ -23,8 +23,6 @@
                     </p>
 
                     <br v-if="elem.type === 'empty'"/>
-
-                    <v-img v-if="elem.type === 'img'" :src="require('../assets/entries/img/' + elem.path)"></v-img>
 
                     <ul v-if="elem.type === 'list'" class="ml-5">
                         <li
@@ -49,8 +47,18 @@
                     </div>
 
                     <br v-if="elem.type === 'place'"/>
-                    <h5 v-if="elem.type === 'place'" :class="['text-right']"> {{ new Date(entryData.date) | date('iiii MMM yyyy') }} {{elem.moment}} - {{ elem.name }} </h5>
+                    <h5 v-if="elem.type === 'place'" :class="['text-right']"> {{ new Date(entryData.date) | date }} {{ elem.moment }} - {{ elem.name }} </h5>
                     <br v-if="elem.type === 'place'"/>
+
+                    <v-img v-if="elem.type === 'img'" :src="require('../assets/entries/img/' + elem.src)"></v-img>
+
+                    <v-carousel v-if="elem.type === 'carousel'" height="600">
+                        <v-carousel-item
+                                v-for="(item,i) in elem.items"
+                                :key="i"
+                                :src="require('../assets/entries/img/' + item.src)"
+                        ></v-carousel-item>
+                    </v-carousel>
                 </div>
             </v-card>
 
@@ -60,12 +68,12 @@
 </template>
 
 <script>
-import { dateFilter } from "vue-date-fns";
+import { createDateFilter } from "vue-date-fns";
 import { es } from 'date-fns/locale';
 
 export default {
     filters: {
-        date: dateFilter
+        date: createDateFilter("dd MMMM yyyy - eeee ", { locale: es })
     },
     components: {
     },

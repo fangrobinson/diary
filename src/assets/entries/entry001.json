@@ -19,6 +19,16 @@
 		{
 			"type": "text",
 			"content": "En un lugar o en otro, las necesidades básicas de las personas no cambian. Podría decirse que en una cultura u otra sí cambian las soluciones a esas necesidades.\nPor supuesto que es parte de la manifestación de cada individuo la forma en que interseca costumbres que le son ajenas.\nMi objetivo personal para este viaje es nutrirme. Por eso, debería mantener un estado de apertura.\nLa pasividad que acostumbro, sin embargo, debería intercambiarse con la agresividad."
+		},
+		{
+			"type": "carousel",
+			"items": [
+				{"src": "001.png"},{"src": "001.png"},{"src": "001.png"}
+			]
+		},
+		{
+			"type": "img",
+			"src": "001.png"
 		}
 	]
 }

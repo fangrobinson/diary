@@ -32,14 +32,19 @@
 		{
 			"type": "carousel",
 			"items": [
-				{"src": "00305.png", "title": "Mi papá y su tía arreglando la tumba de mi abuelo"},{"src": "00306.png", "title": "Un obrero tapa la entrada"},{"src": "00307.png", "title": "Pequeñas ofrendas: frutas, arroz, vino de arroz y velas"},{"src": "00308.png", "title": "'Dinero' siendo quemado"}
+				{"src": "00305.png", "title": "Mi papá y su tía arreglando la nueva casa de mi abuelo"},{"src": "00306.png", "title": "Un obrero tapa la entrada"},{"src": "00307.png", "title": "Pequeñas ofrendas: frutas, arroz, vino de arroz y velas"},{"src": "00308.png", "title": "'Dinero' siendo quemado como ofrenda"}
 			]
 		},
 		{
 			"type": "text",
 			"content": "Ahí encerrados, mediante una app me dijeron un par de cosas mal traducidas al español.\n“Ahora vamos al 1000 ritmo”. Fue gracioso. Sentí que eran mi familia. Son mi familia. Acaso entendí el significado de la palabra.\nTener que viajar a la otra punta del mapa, subir un monte y hacer cosas raras…\nMe llevaron a dos museos. La historia de Cíchéng ( 慈城) y Níngbō (宁波) es muy antigua. Se remonta milenios atrás. Ni siquiera me pude figurar un milenio. Mi papá vio en 30 años demasiados cambios en Níngbō. Los cambios fueron hechos en 10 años. Y para mí esta nueva realidad se iba construyendo segundo a segundo a medida que la descubría."
 		},
-
+		{
+			"type": "carousel",
+			"items": [
+				{"src": "00309.png", "title": "Bajando del monte"},{"src": "00310.png", "title": "Lo que quedó de las tumbas destruidas durante la revolución cultural"}
+			]
+		},
 		{
 			"type": "divider"
 		},

@@ -22,6 +22,12 @@
 			"content": "Comí solo y esperé. Completamente concentrado en esperar y respirar. Al final decidí esperar en la puerta del negocio mientras veía pasar a los demás."
 		},
 		{
+			"type": "carousel",
+			"items": [
+				{"src": "004a01.png", "title": "Los jiǎozi hervidos son mi comida favorita"}, {"src": "004a02.png", "title": "Empleados del local cocinando"}
+			]
+		},
+		{
 			"type": "text", 
 			"content": "Llegó mi papá y buscamos el lago oeste de Hángzhōu (杭州西湖). Mi papá se detuvo a preguntar por el lago (aunque sabe dónde está) y todos nos respondieron algo distinto."
 		},
@@ -36,6 +42,12 @@
 		{
 			"type": "text", 
 			"content": "Caminamos al lado de una plantación de té verde hasta llegar al predio del templo."
+		},
+		{
+			"type": "carousel",
+			"items": [
+				{"src": "004b02.png", "title": "Vista desde el colectivo de la línea 7"},{"src": "004b01.png", "title": "Hángzhōu es una ciudad verde"},{"src": "004b03.png", "title": "Podría vivir en esta ciudad"},{"src": "004b05.png", "title": "Los campos de té verde que atravesamos"},{"src": "004b06.png", "title": "Una planta de té"}
+			]
 		},
 		{
 			"type": "text", 

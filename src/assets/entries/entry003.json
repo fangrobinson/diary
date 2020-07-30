@@ -12,13 +12,34 @@
 		{
 			"type": "carousel",
 			"items": [
-				{"src": "00201.png", "title": "Desayuno de campeones"},{"src": "00202.png", "title": "No estoy seguro de que yo haya comido también esto"}
+				{"src": "00301.png", "title": "Desayuno de campeones"},{"src": "00302.png", "title": "No estoy seguro de que yo haya comido también esto"}
 			]
 		},
 		{
 			"type": "text",
-			"content": "Después fuimos al monte.\nYo llevé las cenizas de mi abuelo. Subimos entre cañas de bambú. Al llegar arriba podíamos ver, entre mucho verde, una porción del pueblo del que veníamos.\nUn piso entero ahí arriba tiene las tumbas de mis parientes. Hay una por pareja. Se carvan los nombres en piedra y una vez muere la persona se pintan de negro. Excepto el nombre familiar. Subiendo entre el bambú no pude evitar pensar en el tiempo presente. Ninguna de las personas se veía triste. Probablemente juzgarlo en ese parámetro no es buena idea. ¿Cuál entonces?\nAhí arriba vi cierta expresión del trabajo, del movimiento. Aunque era un domingo, subimos. Ahí arriba preparamos un pequeño altar en una mesa de piedra. Se abrió una puerta y realizamos un ritual. A la par se preparaba cemento. Prendimos fuego “dinero”. Y mi abuelo se quedó en su nueva casa.\nLa puerta se selló con el cemento. Comimos la fruta. El resto lo recogimos y emprendimos la vuelta. Pero antes de terminar de bajar saltamos un arroyito y, entre el bambú, visitamos los abuelos de mi abuelo. Sólo quedaron las tablas de las tumbas. El resto fue destruido durante la revolución cultural. Ahí encerrados, mediante una app me dijeron un par de cosas mal traducidas al español.\n“Ahora vamos al 1000 ritmo”. Fue gracioso. Sentí que eran mi familia. Son mi familia. Acaso entendí el significado de la palabra.\nTener que viajar a la otra punta del mapa, subir un monte y hacer cosas raras…\nMe llevaron a dos museos. La historia de Cíchéng ( 慈城) y Níngbō (宁波) es muy antigua. Se remonta milenios atrás. Ni siquiera me pude figurar un milenio. Mi papá vio en 30 años demasiados cambios en Níngbō. Los cambios fueron hechos en 10 años. Y para mí esta nueva realidad se iba construyendo segundo a segundo a medida que la descubría."
+			"content": "Después fuimos al monte.\nYo llevé las cenizas de mi abuelo. Subimos entre cañas de bambú. Al llegar arriba podíamos ver, entre mucho verde, una porción del pueblo del que veníamos.\nUn piso entero ahí arriba tiene las tumbas de mis parientes. Hay una por pareja. Se carvan los nombres en piedra y una vez muere la persona se pintan de negro. Excepto el nombre familiar. Subiendo entre el bambú no pude evitar pensar en el tiempo presente. Ninguna de las personas se veía triste. Probablemente juzgarlo en ese parámetro no es buena idea. ¿Cuál entonces?"
 		},
+		{
+			"type": "carousel",
+			"items": [
+				{"src": "00303.png", "title": "Espacio destinado a la sepultura de mis familiares lejanos"},{"src": "00304.png", "title": "Pintado en negro el nombre de pila de un familiar que había fallecido recientemente"}
+			]
+		},
+		{
+			"type": "text",
+			"content": "Ahí arriba vi cierta expresión del trabajo, del movimiento. Aunque era un domingo, subimos. Ahí arriba preparamos un pequeño altar en una mesa de piedra. Se abrió una puerta y realizamos un ritual. A la par se preparaba cemento. Prendimos fuego “dinero”. Y mi abuelo se quedó en su nueva casa.\nLa puerta se selló con el cemento. Comimos la fruta. El resto lo recogimos y emprendimos la vuelta. Pero antes de terminar de bajar saltamos un arroyito y, entre el bambú, visitamos los abuelos de mi abuelo. Sólo quedaron las tablas de las tumbas. El resto fue destruido durante la revolución cultural."
+		},
+		{
+			"type": "carousel",
+			"items": [
+				{"src": "00305.png", "title": "Mi papá y su tía arreglando la tumba de mi abuelo"},{"src": "00306.png", "title": "Un obrero tapa la entrada"},{"src": "00307.png", "title": "Pequeñas ofrendas: frutas, arroz, vino de arroz y velas"},{"src": "00308.png", "title": "'Dinero' siendo quemado"}
+			]
+		},
+		{
+			"type": "text",
+			"content": "Ahí encerrados, mediante una app me dijeron un par de cosas mal traducidas al español.\n“Ahora vamos al 1000 ritmo”. Fue gracioso. Sentí que eran mi familia. Son mi familia. Acaso entendí el significado de la palabra.\nTener que viajar a la otra punta del mapa, subir un monte y hacer cosas raras…\nMe llevaron a dos museos. La historia de Cíchéng ( 慈城) y Níngbō (宁波) es muy antigua. Se remonta milenios atrás. Ni siquiera me pude figurar un milenio. Mi papá vio en 30 años demasiados cambios en Níngbō. Los cambios fueron hechos en 10 años. Y para mí esta nueva realidad se iba construyendo segundo a segundo a medida que la descubría."
+		},
+
 		{
 			"type": "divider"
 		},

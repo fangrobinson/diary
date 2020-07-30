@@ -60,6 +60,7 @@
                             <div class="img-title" v-if="item.title">{{ item.title }}</div>
                         </v-carousel-item>
                     </v-carousel>
+                    <br v-if="elem.type === 'carousel'"/>
                 </div>
             </v-card>
 

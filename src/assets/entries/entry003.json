@@ -12,7 +12,7 @@
 		{
 			"type": "carousel",
 			"items": [
-				{"src": "00201.png"},{"src": "00202.png"}
+				{"src": "00201.png", "title": "Desayuno de campeones"},{"src": "00202.png", "title": "No estoy seguro de que yo haya comido también esto"}
 			]
 		},
 		{

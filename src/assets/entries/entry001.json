@@ -23,7 +23,7 @@
 		{
 			"type": "carousel",
 			"items": [
-				{"src": "001.png", "desc":  "Mi papá"}
+				{"src": "001.png", "title":  "Mi papá"}
 			]
 		}
 	]

@@ -52,10 +52,13 @@
 
                     <v-carousel v-if="elem.type === 'carousel'" height="600" :show-arrows="elem.items.length > 1" show-arrows-on-hover :hide-delimiters="elem.items.length === 1">
                         <v-carousel-item
+                            class="hover-control"
                             v-for="(item,i) in elem.items"
                             :key="i"
                             :src="require('../assets/entries/img/' + item.src)"
-                        ></v-carousel-item>
+                        >
+                            <div class="img-title" v-if="item.title">{{ item.title }}</div>
+                        </v-carousel-item>
                     </v-carousel>
                 </div>
             </v-card>
@@ -150,6 +153,23 @@ export default {
     }
 
     .sm-video-container {
+    }
+
+    .img-title {
+        display: none;
+    }
+
+    .hover-control:hover .img-title {
+        display: flex;
+        align-items: center;
+        background: rgba(0,0,0,.3);
+        height: 50px;
+        justify-content: center;
+        list-style-type: none;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        color: whitesmoke;
     }
 
 </style>

@@ -50,13 +50,11 @@
                     <h5 v-if="elem.type === 'place'" :class="['text-right']"> {{ new Date(entryData.date) | date }} {{ elem.moment }} - {{ elem.name }} </h5>
                     <br v-if="elem.type === 'place'"/>
 
-                    <v-img v-if="elem.type === 'img'" :src="require('../assets/entries/img/' + elem.src)"></v-img>
-
-                    <v-carousel v-if="elem.type === 'carousel'" height="600">
+                    <v-carousel v-if="elem.type === 'carousel'" height="600" :show-arrows="elem.items.length > 1" show-arrows-on-hover :hide-delimiters="elem.items.length === 1">
                         <v-carousel-item
-                                v-for="(item,i) in elem.items"
-                                :key="i"
-                                :src="require('../assets/entries/img/' + item.src)"
+                            v-for="(item,i) in elem.items"
+                            :key="i"
+                            :src="require('../assets/entries/img/' + item.src)"
                         ></v-carousel-item>
                     </v-carousel>
                 </div>

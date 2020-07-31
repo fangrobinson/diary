@@ -50,7 +50,7 @@
                     <h5 v-if="elem.type === 'place'" :class="['text-right']"> {{ new Date(entryData.date) | date }} {{ elem.moment }} - {{ elem.name }} </h5>
                     <br v-if="elem.type === 'place'"/>
 
-                    <v-carousel v-if="elem.type === 'carousel'" height="600" :show-arrows="elem.items.length > 1" show-arrows-on-hover :hide-delimiters="elem.items.length === 1">
+                    <v-carousel v-if="elem.type === 'carousel'" :height="carouselSize" :show-arrows="elem.items.length > 1" show-arrows-on-hover :hide-delimiters="elem.items.length === 1">
                         <v-carousel-item
                             class="hover-control"
                             v-for="(item,i) in elem.items"
@@ -100,6 +100,10 @@ export default {
 
         videoContainerSize() {
             return (this.$vuetify.breakpoint.mdAndUp) ? 'lg-video-container' : 'sm-video-container'
+        },
+
+        carouselSize() {
+            return (this.$vuetify.breakpoint.mdAndUp) ? 600 : 350
         }
     },
 

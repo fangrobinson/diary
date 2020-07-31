@@ -103,6 +103,12 @@
 			"type": "divider"
 		},
 		{
+			"type": "carousel",
+			"items": [
+				{"src": "004d01.png", "title": "Entrada al templo"}
+			]
+		},
+		{
 			"type": "text",
 			"content": "“Hay cuatro templos” me explica mi papá."
 		},
@@ -167,6 +173,12 @@
 			"content": "Y al final, de eso, ni las fotos me van a quedar."
 		},
 		{
+			"type": "carousel",
+			"items": [
+				{"src": "004e01.png", "title": "Mi papá frente a uno de los templos"},{"src": "004e02.png", "title": "En ningún momento pudimos sacar una foto sin otros turistas en el fondo"},{"src": "004e03.png", "title": "Una de las tantas fotos fallidas"},{"src": "004e04.png", "title": "Otra foto fallida"},{"src": "004e05.png","title": "Al final me decidí a sacar con respeto una foto"},{"src": "004e06.png","title": ""}
+			]
+		},
+		{
 			"type": "text",
 			"content": "Pensé que habíamos terminado. Mi papá también pensaba así. No sé cómo, pero seguimos por otro camino."
 		},
@@ -188,7 +200,7 @@
 		},
 		{
 			"type": "text",
-			"content": "Salimos. En realidad no. LingYin recién empezaba. Pero no lo sabíamos. Así, todo el tiempo, los humanos caminamos inocentes, como los animales, de nuestro propósito."
+			"content": "Salimos. En realidad no. Língyǐn recién empezaba. Pero no lo sabíamos. Así, todo el tiempo, los humanos caminamos inocentes, como los animales, de nuestro propósito."
 		},
 		{
 			"type": "divider"

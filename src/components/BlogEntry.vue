@@ -103,7 +103,7 @@ export default {
         },
 
         carouselSize() {
-            return (this.$vuetify.breakpoint.mdAndUp) ? 600 : 350
+            return (this.$vuetify.breakpoint.mdAndUp) ? 600 : 200
         }
     },
 

@@ -3,16 +3,16 @@
 	"title": "Familia",
 	"date": "12/03/2017",
 	"place": "Níngbō",
-	"body": 
+	"body":
 	[
 		{
-			"type": "text", 
+			"type": "text",
 			"content": "Desayunamos en el comedor del primer hotel."
 		},
 		{
 			"type": "carousel",
 			"items": [
-				{"src": "00301.png", "title": "Desayuno de campeones"},{"src": "00302.png", "title": "No estoy seguro de que yo haya comido también esto"}
+				{"src": "LD00301.jpg", "title": "Desayuno de campeones"},{"src": "LD00302.jpg", "title": "No estoy seguro de que yo haya comido también esto"}
 			]
 		},
 		{
@@ -22,7 +22,7 @@
 		{
 			"type": "carousel",
 			"items": [
-				{"src": "00303.png", "title": "Espacio destinado a la sepultura de mis familiares lejanos"},{"src": "00304.png", "title": "Pintado en negro el nombre de pila de un familiar que había fallecido recientemente"}
+				{"src": "LD00303.jpg", "title": "Espacio destinado a la sepultura de mis familiares lejanos"},{"src": "LD00304.jpg", "title": "Pintado en negro el nombre de pila de un familiar que había fallecido recientemente"}
 			]
 		},
 		{
@@ -32,7 +32,7 @@
 		{
 			"type": "carousel",
 			"items": [
-				{"src": "00305.png", "title": "Mi papá y su tía arreglando la nueva casa de mi abuelo"},{"src": "00306.png", "title": "Un obrero tapa la entrada"},{"src": "00307.png", "title": "Pequeñas ofrendas: frutas, arroz, vino de arroz y velas"},{"src": "00308.png", "title": "'Dinero' siendo quemado como ofrenda"}
+				{"src": "LD00305.jpg", "title": "Mi papá y su tía arreglando la nueva casa de mi abuelo"},{"src": "LD00306.jpg", "title": "Un obrero tapa la entrada"},{"src": "LD00307.jpg", "title": "Pequeñas ofrendas: frutas, arroz, vino de arroz y velas"},{"src": "LD00308.jpg", "title": "'Dinero' siendo quemado como ofrenda"}
 			]
 		},
 		{
@@ -46,7 +46,7 @@
 		{
 			"type": "carousel",
 			"items": [
-				{"src": "00309.png", "title": "Bajando del monte"},{"src": "00310.png", "title": "Lo que quedó de las tumbas destruidas durante la revolución cultural"}
+				{"src": "LD00309.jpg", "title": "Bajando del monte"},{"src": "LD00310.jpg", "title": "Lo que quedó de las tumbas destruidas durante la revolución cultural"}
 			]
 		},
 		{
@@ -56,7 +56,7 @@
 		{
 			"type": "carousel",
 			"items": [
-				{"src": "00311.png", "title": "Exposición en el museo de antiguos funcionarios de Níngbō"}
+				{"src": "LD00311.jpg", "title": "Exposición en el museo de antiguos funcionarios de Níngbō"}
 			]
 		},
 		{
@@ -88,7 +88,7 @@
 		{
 			"type": "carousel",
 			"items": [
-				{"src": "00312c.png", "title": "Mis tíos y mi papá llegando al templo"}, {"src": "00312.png", "title": "Imágenes budistas del templo"}
+				{"src": "LD00312c.jpg", "title": "Mis tíos y mi papá llegando al templo"}, {"src": "LD00312.jpg", "title": "Imágenes budistas del templo"}
 			]
 		},
 		{

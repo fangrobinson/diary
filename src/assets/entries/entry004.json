@@ -234,6 +234,12 @@
 			"content": "Si lo pienso bien, me dejé impresionar, otra vez, por el porte de la misma. Y no alcancé a apreciarla como me gustaría. Si me concentré en detalles, pero que apenas importan."
 		},
 		{
+			"type": "carousel",
+			"items": [
+				{"src": "LD004f02.jpg", "title": ""},{"src": "LD004f03.jpg", "title": ""},{"src": "LD004f04.jpg", "title": ""}
+			]
+		},
+		{
 			"type": "text",
 			"content": "Después de recorrer un poco más, llegamos a un cartel. De todo el predio del Língyǐn Sì habíamos recorrido apenas la entrada."
 		},

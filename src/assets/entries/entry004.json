@@ -284,6 +284,10 @@
 			"content": "“Acá empieza tu Língyǐn Sì”"
 		},
 		{
+			"type": "text",
+			"content": "(Es muy loco: busqué fotos para ilustrar esto. No encuentro ninguna de esto, pero tengo en mis recuerdos una imagen -!!!-)"
+		},
+		{
 			"type": "empty"
 		},
 		{
@@ -333,6 +337,12 @@
 			"content": "Una figura (creo) en bronce oscuro. Decidí absorber la imagen entregándole mi presente. Cerré los ojos. Le presenté mis respeto. Le imploré poder olvidarme de olvidar ese día, pero no con esas palabras. Lo que pedí en ese instante, o la manera en la que lo pedí, lo olvidé."
 		},
 		{
+			"type": "carousel",
+			"items": [
+				{"src": "LD004g01.jpg", "title": ""}
+			]
+		},
+		{
 			"type": "text",
 			"content": "Corrí al siguiente. Subiendo. Cada tanto fotografiaba los pasajes por los que había de pasar después, como si no pudiera volverlos a ver igual."
 		},
@@ -343,6 +353,12 @@
 		{
 			"type": "text",
 			"content": "Si el pasado es inalterable, parte de mí, el pasado, permanecerá allí por siempre."
+		},
+		{
+			"type": "carousel",
+			"items": [
+				{"src": "LD004h01.jpg", "title": ""}
+			]
 		},
 		{
 			"type": "text",
@@ -388,11 +404,23 @@
 			"content": "Las hojas hacen ruido al rozarse entre ellas. No pude no escuchar el chino de las personas que pasaron. Me concentré en mi respiración, pero no en la idea de respirar o de concentrarme en respirar. Sino en el movimiento anatómico muscular de mi respiración."
 		},
 		{
+			"type": "carousel",
+			"items": [
+				{"src": "LD004i01.jpg", "title": "Me daba miedo cerrar los ojos y caerme"}
+			]
+		},
+		{
+			"type": "empty"
+		},
+		{
 			"type": "text",
 			"content": "Volví hacia atrás mis pasos. Ahora de noche. No solo mi visión era distinta, sino que ahora vería lo que podría haber visto mientras subía, pero al ver hacia atrás."
 		},
 		{
-			"type": "empty"
+			"type": "carousel",
+			"items": [
+				{"src": "LD004j01.jpg", "title": ""},{"src": "LD004j02.jpg", "title": ""},{"src": "LD004j03.jpg", "title": ""},{"src": "LD004j04.jpg", "title": ""}
+			]
 		},
 		{
 			"type": "text",
